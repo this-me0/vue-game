@@ -5,21 +5,32 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint --ext .js --ext .vue src",
+    "lint-fix": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "^29.6.4",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "compression-webpack-plugin": "^5.0.1",
+    "eslint": "7.5.0",
+    "eslint-plugin-vue": "6.2.2",
+    "html-webpack-plugin": "^5.5.3",
+    "less": "^4.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "vue-template-compiler": "2.6.10"
   },
   "eslintConfig": {
     "root": true,
