@@ -1,4 +1,4 @@
-# demo
+# vue小游戏
 
 ## Project setup
 ```
